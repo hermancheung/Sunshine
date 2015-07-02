@@ -91,6 +91,10 @@ public class MainActivityFragment extends Fragment {
             }
             reader = new BufferedReader(new InputStreamReader(inputStream));
 
+
+
+
+
             String line;
             while ((line = reader.readLine()) != null) {
                 // Since it's JSON, adding a newline isn't necessary (it won't affect parsing)
